@@ -6,6 +6,6 @@
 可通过直接回复命令给用户执行命令。  
 
 该项目地址：  
-[GitHub 项目](https://github.com/iawooo/ctt)  
+[GitHub 项目](https://github.com/plnl/Pliumsgbot)  
 
 欢迎 fork，留下你的 star 再走吧！
