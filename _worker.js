@@ -520,7 +520,7 @@ export default {
 
     async function getVerificationSuccessMessage() {
       try {
-        const response = await fetch('https://raw.githubusercontent.com/iawooo/ctt/refs/heads/main/CFTeleTrans/start.md');
+        const response = await fetch('https://raw.githubusercontent.com/plnl/Pliumsgbot/refs/heads/main/CFTeleTrans/start.md');
         if (!response.ok) {
           throw new Error(`Failed to fetch start.md: ${response.statusText}`);
         }
@@ -538,7 +538,7 @@ export default {
 
     async function getNotificationContent() {
       try {
-        const response = await fetch('https://raw.githubusercontent.com/iawooo/ctt/refs/heads/main/CFTeleTrans/notification.md');
+        const response = await fetch('https://raw.githubusercontent.com/plnl/Pliumsgbot/refs/heads/main/CFTeleTrans/notification.md');
         if (!response.ok) {
           throw new Error(`Failed to fetch notification.md: ${response.statusText}`);
         }
